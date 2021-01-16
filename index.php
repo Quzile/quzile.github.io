@@ -9,8 +9,11 @@
 </head>
 
 <body>
-    <form action="iqtest" method="post" class="form">
+    <form action="result.php" method="post" class="form">
         <h1>Классический IQ тест Ганса Айзенка</h1>
+
+        <input type="button" class="submit testbtn" value="Test">
+
         <div class="question">
             <p>Вставьте пропущенную цифру: 2 5 8 11 __</p>
             <input required name="question1" placeholder="Вариант ответа..." type="text" size="40">
