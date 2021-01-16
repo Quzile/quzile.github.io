@@ -6,64 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Классический IQ тест Ганса Айзенка</title>
-
-
-    <script type="text/javascript">
-        function valid(form) {
-            //Radio передает id
-            var totalpoint = 0;
-            var q_1 = form.question1.value;
-            var q_2 = form.question2.value;
-            var q_3 = form.question3.value;
-            var q_4 = form.question4.value;
-            var q_5 = form.question5.value;
-            var q_6 = form.question6.value;
-            var q_7 = form.question7.value;
-            var q_8 = form.question8.value;
-            var q_9 = form.question9.value;
-            var q_10 = form.question10.value;
-            var q_11 = form.question11.value;
-            var q_12 = form.question12.value;
-            var q_13 = form.question13.value;
-            var q_14 = form.question14.value;
-            var q_15 = form.question15.value;
-            var q_16 = form.question16.value;
-            var q_17 = form.question17.value;
-            var q_18 = form.question18.value;
-            var q_19 = form.question19.value;
-            var q_20 = form.question20.value;
-            var q_21 = form.question21.value;
-            var q_22 = form.question22.value;
-            var q_23 = form.question23.value;
-            var q_24 = form.question24.value;
-            var q_25 = form.question25.value;
-            var q_26 = form.question26.value;
-            var q_27 = form.question27.value;
-            var q_28 = form.question28.value;
-            var q_29 = form.question29.value;
-            var q_30 = form.question30.value;
-            var q_31 = form.question31.value;
-            var q_32 = form.question32.value;
-            var q_33 = form.question33.value;
-            var q_34 = form.question34.value;
-            var q_35 = form.question35.value;
-            var q_36 = form.question36.value;
-            var q_37 = form.question37.value;
-            var q_38 = form.question38.value;
-            var q_39 = form.question39.value;
-            var q_40 = form.question40.value;
-
-            if (q_1 == "14") {
-                alert(q_1);
-            }
-
-        }
-    </script>
+    <script src="js/main.js"></script>
 </head>
 
 <body>
-    <form action="" method="post" class="form" name="iqtest" onsubmit="valid(this)">
+    <form action="#" method="get" class="form" name="iqtest" onsubmit="valid(this)">
         <h1>Классический IQ тест Ганса Айзенка</h1>
+        <div class="dis">
+            <p><span>Инструкция:</span> Данный тест состоит из 40 задач. Старайтесь
+                отвечать на
+                вопросы как можно быстрее. Не задерживайтесь слишком долго над одной задачей; возможно, вы находитесь на
+                неверном пути, и лучше перейти к следующей. С другой стороны, не сдавайтесь слишком легко; большую часть
+                задач можно решить, проявив немного терпения.</p>
+            <p>Вашим ответом в каждом случае будет отдельное число, символ, буква или слово. Вы можете выбирать из
+                предоставленного списка или самостоятельно искать правильный ответ.</p>
+            <p><span>Примечание:</span> Точки указывают количество букв в пропущенном слове; к примеру, (….) означает,
+                что
+                пропущенное слово, которое вам нужно найти, состоит из четырех букв.</p>
+        </div>
 
         <div class="question">
             <p>Вставьте пропущенную цифру: 2 5 8 11 __</p>
@@ -74,11 +34,12 @@
             <input type="radio" name="question2" value="house"> Дом<Br>
             <input type="radio" name="question2" value="iglu"> Иглу<Br>
             <input type="radio" name="question2" value="bungalo"> Бунгало<Br>
+            <input type="radio" name="question2" value="office"> Офис<Br>
             <input type="radio" name="question2" value="hut"> Хижина<Br>
         </div>
         <div class="question">
             <p>Найдите недостающие числа: 7 10 9 12 11 __ __</p>
-            <input name="question3" placeholder="Вариант ответа..." type="text" size="40">
+            <input name="question3" placeholder="Вариант ответа... (Через запятую без пробела)" type="text" size="40">
         </div>
         <div class="question">
             <p>Выберите лишнее слово:</p>
@@ -130,7 +91,7 @@
         <div class="question">
             <p>Вставьте недостающие цифры:</p>
             <img src="img/num12.jpeg" alt="Картинка с элементами для вопроса"><br>
-            <input name="question12" placeholder="Вариант ответа..." type="text" size="40">
+            <input name="question12" placeholder="Вариант ответа...(Через запятую без пробела)" type="text" size="40">
         </div>
         <div class="question">
             <p>Вставьте недостающую букву: Д Ж К Н С _</p>
@@ -143,7 +104,7 @@
         </div>
         <div class="question">
             <p>Найдите слова в скобках: <br><br> П + (прибор для определения глубины) = (плавательное средство)</p>
-            <input name="question15" placeholder="Вариант ответа..." type="text" size="40">
+            <input name="question15" placeholder="Вариант ответа...(Через запятую без пробелов)" type="text" size="40">
         </div>
         <div class="question">
             <p>Вставьте недостающую цифру: <br><br> 2 5 7 <br><br> 4 7 5 <br><br> 3 6 __</p>
@@ -254,7 +215,7 @@
         <div class="question">
             <p>Вставьте недостающие буквы:</p>
             <img src="img/num36.jpeg" alt="Картинка с элементами для вопроса"><br>
-            <input name="question36" placeholder="Вариант ответа..." type="text" size="40">
+            <input name="question36" placeholder="Вариант ответа... (Через запятую без пробелов)" type="text" size="40">
         </div>
         <div class="question">
             <p>Вставьте в скобки значимое слово, которое завершает первое слово и начинает второе (намек: частота):
