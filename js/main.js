@@ -1,5 +1,6 @@
-function valid(form) {
+function valid() {
     //Radio передает id
+    var form = form = document.querySelector('form');
     var totalpoint = 0;
     var q_1 = form.question1.value;
     var q_2 = form.question2.value;
@@ -126,4 +127,5 @@ function valid(form) {
     var iq = (75 + 2.5 * totalpoint)
     var percent = (totalpoint / 40) * 100
     alert("Ваш результат: " + totalpoint + "/40 баллов (" + percent + "%)\n\nВаш IQ составляет: " + iq + "\n\nВы молодец, что не сдались и прошли тест до конца! Не огорчайтесь, если не смогли дать верный ответ на все вопросы.Любой человек может правильно ответить на некоторые вопросы, но никто не в состоянии правильно ответить на все вопросы за отпущенный промежуток времени.");
+    window.location.href = "/"
 }

@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
     <title>Классический IQ тест Ганса Айзенка</title>
     <script src="js/main.js"></script>
 </head>
 
 <body>
-    <form action="#" method="get" class="form" name="iqtest" onsubmit="valid(this)">
+    <form action="" class="form" id="iqtest">
         <h1>Классический IQ тест Ганса Айзенка</h1>
         <div class="dis">
             <p><span>Инструкция:</span> Данный тест состоит из 40 задач. Старайтесь
@@ -237,8 +238,10 @@
             <p>Вставьте пропущенную цифру:<br><br> 2 7 24 77 _</p>
             <input name="question40" placeholder="Вариант ответа..." type="text" size="40">
         </div>
+
+
         <div class="btns">
-            <input class="submit" type="submit" value="Получить результат">
+            <a href="#" class="submit" onclick='valid()'>Получить результат</a>
             <input class="reset" type="reset" value="Очистить">
         </div>
 

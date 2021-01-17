@@ -69,6 +69,7 @@ body {
 }
 
 .submit {
+    text-decoration: none;
     padding: 20px 50px;
     border-radius: 50px;
     border: none;
@@ -109,7 +110,14 @@ body {
         font-size: 14px;
     }
     .form .question input[type="text"] {
+        font-size: 14px;
         width: 300px;
+    }
+    .form .question input[type="radio"] {
+        transform: scale(0.8);
+    }
+    .form .question {
+        font-size: 14px;
     }
     .form .question img {
         margin-bottom: 20px;
@@ -150,9 +158,11 @@ body {
         width: 80%;
     }
     .form .question input[type="radio"] {
-        font-size: 10px !important;
+        transform: scale(0.6);
     }
-        
+    .form .question {
+        font-size: 10px;
+    }
     .form .question img {
         margin-bottom: 20px;
         height: 200px;
@@ -189,9 +199,12 @@ body {
         width: 80%;
     }
     .form .question input[type="radio"] {
-        font-size: 10px !important;
+        transform: scale(0.6);
     }
-        
+    
+    .form .question {
+        font-size: 10px;
+    }
     .form .question img {
         margin-bottom: 20px;
         height: 150px;
