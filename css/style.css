@@ -212,14 +212,20 @@ body {
         width: 150px;
     }
 
-    .btns {
-        display: block;
-    }
     .submit {
-        width: 100%;
+        font-size: 12px;
+        width: 60%;
         margin-bottom: 20px;
     }
     .reset {
+        font-size: 12px;
         width: 100%;
     }
+}
+@media (max-width: 300px) {
+    .submit {
+        width: 55%;
+        margin-bottom: 20px;
+    }
+
 }
