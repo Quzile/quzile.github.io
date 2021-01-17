@@ -128,11 +128,10 @@ body {
         font-size: 14px;
     }
 
-    .btns {
-        display: block;
-    }
     .submit {
-        width: 100%;
+        text-align: center;
+        display: block;
+        width: 75%;
         margin-bottom: 20px;
     }
     .reset {
@@ -173,10 +172,12 @@ body {
         display: block;
     }
     .submit {
-        width: 100%;
+        font-size: 14px;
+        width: 60%;
         margin-bottom: 20px;
     }
     .reset {
+        font-size: 14px;
         width: 100%;
     }
 }
