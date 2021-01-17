@@ -167,10 +167,6 @@ body {
         height: 200px;
         width: 200px;
     }
-
-    .btns {
-        display: block;
-    }
     .submit {
         font-size: 14px;
         width: 60%;
@@ -207,7 +203,6 @@ body {
         font-size: 10px;
     }
     .form .question img {
-        margin-bottom: 20px;
         height: 150px;
         width: 150px;
     }
@@ -215,7 +210,6 @@ body {
     .submit {
         font-size: 12px;
         width: 60%;
-        margin-bottom: 20px;
     }
     .reset {
         font-size: 12px;
